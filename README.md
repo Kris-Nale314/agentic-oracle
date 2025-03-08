@@ -38,7 +38,7 @@ Through these lenses, we explore fundamental AI concepts that every modern pract
 └────────────────────────┘      └────────────────────────┘      └────────────────────────┘
 ```
 
-
+```
 agentic-oracle/
 ├── data/
 │   └── dell_financial_dataset.json
@@ -70,8 +70,7 @@ agentic-oracle/
 ├── main.py  # Streamlit app
 ├── requirements.txt
 └── README.md
-
-
+```
 
 ## 🧠 Meet the AI Crew
 

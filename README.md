@@ -38,6 +38,41 @@ Through these lenses, we explore fundamental AI concepts that every modern pract
 └────────────────────────┘      └────────────────────────┘      └────────────────────────┘
 ```
 
+
+agentic-oracle/
+├── data/
+│   └── dell_financial_dataset.json
+├── agents/
+│   ├── __init__.py
+│   ├── financial_analyst.py
+│   ├── profile_researcher.py
+│   ├── news_analyst.py
+│   └── boundary_detector.py
+├── judge/
+│   ├── __init__.py
+│   └── investment_judge.py
+├── processors/
+│   ├── __init__.py
+│   ├── text_processor.py
+│   ├── chunking_strategies.py
+│   └── embedding_generator.py
+├── utils/
+│   ├── __init__.py
+│   ├── openai_client.py
+│   └── evaluation.py
+├── tests/
+│   ├── __init__.py
+│   ├── test_boundary_detection.py
+│   ├── test_document_classification.py
+│   └── test_analysis.py
+├── analysis.py  # CrewAI orchestration and task definitions
+├── orchestration.py  # Higher-level orchestration for Streamlit
+├── main.py  # Streamlit app
+├── requirements.txt
+└── README.md
+
+
+
 ## 🧠 Meet the AI Crew
 
 <table>

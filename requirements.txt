@@ -1,0 +1,9 @@
+streamlit
+crewai
+autogen
+Langchain
+python-dotenv
+googlesearch-python
+openai
+requests
+chromadb
